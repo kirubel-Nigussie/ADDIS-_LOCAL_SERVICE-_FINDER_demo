@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+    margin-left: var(--sidebar-width);
+    padding: 2rem;
+    background-color: var(--bg-main);
+    min-height: 100vh;
+}

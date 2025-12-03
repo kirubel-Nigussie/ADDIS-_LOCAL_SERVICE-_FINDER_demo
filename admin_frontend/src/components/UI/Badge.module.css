@@ -1,0 +1,49 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.active {
+    background-color: var(--status-active-bg);
+    color: var(--status-active-text);
+}
+
+.inactive {
+    background-color: var(--status-inactive-bg);
+    color: var(--status-inactive-text);
+}
+
+.pending {
+    background-color: var(--status-pending-bg);
+    color: var(--status-pending-text);
+}
+
+.rejected {
+    background-color: var(--status-inactive-bg);
+    color: var(--status-inactive-text);
+}
+
+.suspended {
+    background-color: var(--status-suspended-bg);
+    color: var(--status-suspended-text);
+}
+
+/* Custom variants for User Types based on image */
+.finder {
+    background-color: #DBEAFE;
+    /* Light Blue */
+    color: #1E40AF;
+    /* Dark Blue */
+}
+
+.provider {
+    background-color: #DCFCE7;
+    /* Light Green */
+    color: #166534;
+    /* Dark Green */
+}
